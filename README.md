@@ -9,11 +9,13 @@ This is a full-stack MERN application that allows users to visually track and do
 Backend Route Tree. Example Attached.
 
 Authentication Routes
+
     *POST    /api/auth/register      → Register new user
 
     *POST    /api/auth/login         → Login user and return JWT
 
 Trip Routes
+
     *GET     /api/trips              → Get all trips owned by logged-in user
 
     *POST    /api/trips              → Create a new trip
@@ -25,6 +27,7 @@ Trip Routes
     *DELETE  /api/trips/:tripId      → Delete a trip (owner only)
 
 State Visit Routes
+
     *GET     /api/trips/:tripId/states
 
     *POST    /api/trips/:tripId/states
